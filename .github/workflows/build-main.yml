@@ -19,9 +19,9 @@ jobs:
         run: npm run build
 
       - name: Archive build
-          run: |
-            mkdir -p .temp
-            tar -czf .temp/project-build.tar.gz build
+        run: |
+          mkdir -p .temp
+          tar -czf .temp/project-build.tar.gz build
 
       - name: Upload archive vis SCP
         uses: appleboy/scp-action@v0.1.7
