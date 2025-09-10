@@ -38,5 +38,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            cd htdocs/maxym.swit.vn.ua
+            cd htdocs/trade-with-me.swit.vn.ua
             tar -xzf build.tar.gz
