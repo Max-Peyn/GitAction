@@ -29,7 +29,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          source: build.tar.gz
+          source: .temp/project-build.tar.gz
           target: ~/htdocs/trade-with-me.swit.vn.ua
           strip_components: 1
 
